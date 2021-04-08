@@ -33,7 +33,7 @@ namespace task1
                 {
                     maxTemp = Convert.ToSingle(sMaxTemp);
                 }                
-                catch (Exception) 
+                catch (Exception)
                 {
                     Console.WriteLine(errMessage);
                     continue;
