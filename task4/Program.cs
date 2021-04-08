@@ -19,7 +19,7 @@ namespace task4
         {
             OfficeShedule office1Shedule = OfficeShedule.Monday | OfficeShedule.Tuesday | OfficeShedule.Wednesday;
             OfficeShedule office2Shedule = OfficeShedule.Saturday | OfficeShedule.Tuesday | OfficeShedule.Sunday;
-            OfficeShedule office3Shedule = OfficeShedule.Monday | OfficeShedule.Wednesday | OfficeShedule.Friday;
+            OfficeShedule office3Shedule = OfficeShedule.Monday | OfficeShedule.Wednesday | OfficeShedule.Friday; 
             Console.WriteLine($"Дни работы офиса 1 - {SheduleString(office1Shedule)}");
             Console.WriteLine($"Дни работы офиса 2 - {SheduleString(office2Shedule)}");
             Console.WriteLine($"Дни работы офиса 3 - {SheduleString(office3Shedule)}");
